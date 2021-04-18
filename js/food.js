@@ -18,9 +18,18 @@ alert (name + ' your age is ' + userAge);
 var foodtype = prompt('do you like healthy food ? yes or no')
 while (foodtype !== 'yes' && foodtype !== 'no'){
 
+<<<<<<< HEAD
   var foodtype = prompt('do you like healthy food ? yes or no')
 }
 if (foodtype == 'yes'){ 
+=======
+var foodtype = prompt('do you like healthy food ? YES or NO')
+while (foodtype !== 'YES' && foodtype !== 'NO'){
+
+  var foodtype = prompt('do you like healthy food ? YES or NO')
+}
+if (foodtype == 'YES'){ 
+>>>>>>> 44140c1043c65a78fbd8991757324dfc3b4ccfd8
   var image = '<img src="https://ventsmagazine.com/wp-content/uploads/2021/04/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342-1.jpg" alt= "healthy food"/>';
   
    document.write(image) ;
